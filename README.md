@@ -12,7 +12,7 @@ Em vários cenários, situações do cotidiano precisam também ser representado
 
 ## 2.1 - Implementação
 
-Para implementar a pilha primeiro precisamos entender o algoritmo utilizado para construí-la. Existem diversas formas de fazer uma pilha, entretanto, para esse caso vamos implementar uma pilha que seja dinâmica.
+Para implementar a pilha primeiro precisamos entender o algoritmo utilizado para construí-la. Existem diversas formas de fazer uma pilha, entretanto, para esse caso vamos construir uma pilha que seja dinâmica.
 
 ### 2.2 - Algoritmo
 
