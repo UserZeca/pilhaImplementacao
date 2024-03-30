@@ -90,12 +90,17 @@ void exibe_pilha(Pilha *p){
 }
 
 void pilha_libera(Pilha *p){
-
-    if(p != NULL){
-        free(p);
-        printf("Pilha liberada\n");
-    }else{
-        printf("A pilha nao foi alocada para ser libera\n");
+    
+    if(p->topo != NULL){
+        No *aux;
+        while(p->topo != NULL){
+            aux = p->topo;
+            p->topo = p->topo->prox;
+            free(aux);
+            printf("Liberando elemento\n");
+        }
     }
-
+    
+    free(p);
+    printf("Pilha liberada\n");
 }
