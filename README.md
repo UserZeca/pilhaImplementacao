@@ -50,4 +50,8 @@ Além disso, teremos um ponteiro específico que irá guardar o endereço do ele
     <img title="Removendo o no da Pilha" style="height: 300px" alt="Alt text" src="./img/removendoONoDaPilha.png">
     
     - ### Liberar Pilha
-        A pilha por ser dinâmica exige um processo de alocação de mémoria por pedido explícito do desenvolvedor, por isso, é importante se certificar se o espaço alocado será ou não utilizado após a execução, por isso é necessário uma funcionalidade da pilha que libera da mémoria a estrutura pilha e todos os itens dela. Para isso, é preciso percorrer toda pilha com uma variável auxiliar e ir liberando item por item e no final desalocar a própria pilha.
+        A pilha por ser dinâmica exige um processo de alocação de mémoria por pedido explícito do desenvolvedor, por isso, é importante se certificar se o espaço alocado será ou não utilizado após a execução, por isso é necessário uma funcionalidade da pilha que libera da mémoria a estrutura pilha e todos os itens dela. Para isso, é preciso percorrer toda pilha com uma variável auxiliar e ir liberando item por item e no final desalocar/liberar a própria pilha.
+
+## ✒️ Autor
+
+* [**Ezequias Kluyvert**](https://github.com/UserZeca) 😊
