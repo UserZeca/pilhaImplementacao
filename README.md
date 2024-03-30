@@ -2,19 +2,19 @@
 
 Esse repositório tem como objetivo explorar a construção e implementação da estrutura de dados pilha.
 
-## - O que é uma pilha?
+## 1 - O que é uma pilha?
 
 No contexto do dia a dia uma pilha seria um conjunto de itens um sobre o outro, no qual você insere um novo item sempre no topo e caso queira retira algo recomenda-se remover a partir também do topo. Existem casos em que há a necessidade de remover itens que não estão na parte de cima da pilha, e são nesses casos que recorrentemente na presa (ou na preguiça) ocorrem acidentes, ao tentar remover um item da pilha sem retirar os de cima a pilha acaba se desfazendo, por exemplo, aquela pilha de roupas dobradas dentro do guarda-roupas no início da semana e que no final da semana não é mais nem uma pilha nem um conjunto de roupas dobradas (ou quase isso).
 
-## - E na computação?
+## 1.1 - E na computação?
 
 Em vários cenários, situações do cotidiano precisam também ser representados na computação, o que é caso da pilha. A pilha é uma forma de estruturar dados de maneira a abstrair o comportamento de uma pilha real (sem os acidentes), ou seja, um conjunto de dados organizados na memória (nosso "guarda-roupas") que possuem funcionalidades atrelados a ele e que permitem manipulá-los como uma pilha, inserir no topo, remover do topo. 
 
-## - Implementação
+## 2 - Implementação
 
 Para implementar a pilha primeiro precisamos entender o algoritmo utilizado para construí-la. Existem diversas formas de fazer uma pilha, entretanto, para esse caso vamos construir uma pilha que seja dinâmica.
 
-## - Algoritmo
+## 2.1 - Algoritmo
 
 O algoritmo de uma pilha dinâmica se centra no comportamento de remover e adicionar elementos do topo e como ela é dinâmica trabalharemos com ponteiros. Antes de iniciar precisamos entender que em uma pilha dinâmica a ligações entre os elementos são feitas atráves de ponteiros, em que um item aponta para um proximo **(nesse caso "abaixo")** e esse por seguinte também aponta para o próximo e assim por diante até a base da pilha em que o próximo item será nulo (NULL) sendo uma referência para o fim da pilha. 
 
