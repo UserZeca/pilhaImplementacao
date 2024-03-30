@@ -18,7 +18,7 @@ Para implementar a pilha primeiro precisamos entender o algoritmo utilizado para
 
 O algoritmo de uma pilha dinâmica se centra no comportamento de remover e adicionar elementos do topo e como ela é dinâmica trabalharemos com ponteiros. Antes de iniciar precisamos entender que em uma pilha dinâmica a ligações entre os elementos são feitas atráves de ponteiros, em que um item aponta para um proximo **(nesse caso "abaixo")** e esse por seguinte também aponta para o próximo e assim por diante até a base da pilha em que o próximo item será nulo (NULL) sendo uma referência para o fim da pilha. 
 
-<img title="Pilha representação sem o topo" alt="Alt text" src="./img/pilhaCriaImagem.png">
+<img title="Pilha representação sem o topo" style="height: 300px" alt="Alt text" src="./img/pilhaCriaImagem.png">
 
 Além disso, teremos um ponteiro específico que irá guardar o endereço do elemento do topo da pilha, assim dando uma referência de inicio para a pilha.
 
