@@ -24,19 +24,19 @@ Além disso, teremos um ponteiro específico que irá guardar o endereço do ele
 
 <img title="Pilha representação com o topo" style="height: 300px" alt="Alt text" src="./img/pilhaCriaImagem_ponteiroTopo.png">
 
-- ##### Criando a pilha
+- ### Criando a pilha
     Ao iniciar a pilha é necessário armazenarmos espaço na mémoria pra ela, e logo após, como a pilha está vazia, setar seu topo para Nulo (NULL).
 
     <img title="Pilha vazia" alt="Alt text" style="height: 300px" src="./img/iniciarPilha.png">
 
-- ##### Inserir elemento na pilha (Push)
+- ### Inserir elemento na pilha (Push)
     Para inserir um novo elemento **A** na pilha precisamos primeiro alocar esse elemento na mémoria. Com o elemento alocado, faremos com que o ponteiro para o proximo elemento de A aponte para o topo da pilha, isso irá criar uma coneção entre os elementos da pilha e novo elemento, lembrando que se a pilha estiver vazia a consequência será que o próximo elemento do primeiro elemento será Nulo (NULL).
 
     <img title="Adicionando elemento na pilha" style="height: 300px" alt="Alt text" src="./img/adicionandoElementoNaPilha.png">
 
     Logo após fazer a conexão entre o elemento A e a pilha, precisamos mudar a referência do topo fazendo com que o ponteiro topo aponte para o novo elemento, como mostrado acima. 
 
-- #### Remover elemento da pilha (Pop)
+- ### Remover elemento da pilha (Pop)
     Para remover um elemento **B** da pilha, precisamos primeiro lembrar que na pilha o último a entrar é o primeiro a sair, ou seja, temos que retirar do topo. O primeiro passo é armazenar em um várivel temporária a referência para o elemento a ser removido do topo da pilha e extrair para uma outra váriavel o dado que está dentro do elemento a ser removido.
 
     <img title="Salvando referência do topo" style="height: 300px" alt="Alt text" src="./img/salvarReferenciaTopo.png">
